@@ -17,6 +17,7 @@ import ventus.aura.kafkastarter.Task;
 public class Listener {
   @KafkaListener(topics = "${ventus.kafka.topic.name}")
   public void msgListener2(@Payload(required = false) Task msg) {
+
     log.info(msg.getExecutor());
     log.info(msg.getTitle());
   }
