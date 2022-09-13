@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Consumer2" type="Application" factoryName="Application">
+    <envs>
+      <env name="-Dserver.port" value="8073" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="ventus.aura.kafkaconsumer.KafkaConsumerApplication" />
+    <module name="kafkaconsumer.main" />
+    <option name="PROGRAM_PARAMETERS" value="server.port=8074" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
